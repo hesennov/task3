@@ -4,14 +4,17 @@ import Table from "./Table";
 function Fake() {
   const [listings, setDisplayListings] = useState([]);
   const [selectedProperty, setSelectedProperty] = useState("");
+  const [loading, setLoading] = useState(true);
   const [sortBy, setSortBy] = useState("asc");
   const [query, setQuery] = useState("");
 
   useEffect(() => {
+    // setLoading(true);
     // API'den verileri çekmek için fetch() fonksiyonunu kullanıyoruz
     fetch("http://localhost:3000/places")
       .then((response) => response.json())
       .then((data) => setDisplayListings(data));
+    setLoading(false);
   }, []);
 
   const handlePropertyChange = (event) => {
@@ -100,6 +103,8 @@ function Fake() {
         listings={search(listings)}
         selectedProperty={selectedProperty}
         query={query}
+        loading={loading}
+        setLoading={setLoading}
       />
     </div>
   );
