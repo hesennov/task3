@@ -4,7 +4,7 @@
       "id": 1,
       "createdDateTime": "2023-04-11T10:30:00Z",
       "img": "https://images.pexels.com/photos/5563472/pexels-photo-5563472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "title": "Luxe villa in Alicante",
+      "title": "luxe villa in alicante",
       "location": "Murcia, Costa Cálida, Spanje",
       "about": [
         "3 Slaapkamers",
@@ -17,7 +17,7 @@
       "id": 2,
       "createdDateTime": "2023-04-11T10:32:00Z",
       "img": "https://images.unsplash.com/photo-1628870571248-4f5db428986c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzJTIwdmlsbGFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "Stunning beachfront villa in Ibiza",
+      "title": "stunning beachfront villa in ibiza",
       "location": "Ibiza, Balearic Islands, Spain",
       "about": [
         "4 Bedrooms",
@@ -32,7 +32,7 @@
       "id": 3,
       "createdDateTime": "2023-04-11T10:34:00Z",
       "img": "https://plus.unsplash.com/premium_photo-1661962821338-c07da63995f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWxzJTIwdmlsbGFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "Elegant townhouse in Seville",
+      "title": "elegant townhouse in seville",
       "location": "Seville, Andalusia, Spain",
       "about": [
         "3 Bedrooms",
