@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
+import Table from "./Table";
 
 function Fake() {
   const [listings, setDisplayListings] = useState([]);
   const [selectedProperty, setSelectedProperty] = useState("");
   const [sortBy, setSortBy] = useState("asc");
-  const [query, setquery] = useState("");
+  const [query, setQuery] = useState("");
 
   useEffect(() => {
     // API'den verileri çekmek için fetch() fonksiyonunu kullanıyoruz
@@ -56,8 +57,24 @@ function Fake() {
     setDisplayListings(sortedListings);
   }, [listings, sortBy]);
 
+  const search = (data) => {
+    // const keys = ["name", "username", "email"];
+    return data.filter(
+      (user) =>
+        user.title.toLowerCase().includes(query) ||
+        user.type.toLowerCase().includes(query) ||
+        user.location.toLowerCase().includes(query)
+    );
+  };
+
   return (
     <div className="App">
+      <input
+        type="text"
+        placeholder="search..."
+        onChange={(e) => setQuery(e.target.value)}
+      />
+
       <h1>ev elanlari</h1>
       <label htmlFor="sort-select">Sort by: qiyet ve tarix</label>
       <select id="sort-select" value={sortBy} onChange={handleSortChange}>
@@ -79,19 +96,11 @@ function Fake() {
         <option value="Townhouse">Townhouse</option>
       </select>
 
-      <ul>
-        {listings
-          .filter(
-            (item) => selectedProperty === "" || item.type === selectedProperty
-          )
-          .map((item) => (
-            <div key={item.id}>
-              <li>{item.title}</li>
-              <img src={item.img} alt={item.title} width="350" height="300" />
-              <li>{item.price}</li>
-            </div>
-          ))}
-      </ul>
+      <Table
+        listings={search(listings)}
+        selectedProperty={selectedProperty}
+        query={query}
+      />
     </div>
   );
 }
