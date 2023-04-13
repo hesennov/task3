@@ -47,7 +47,7 @@
       "id": 4,
       "createdDateTime": "2023-04-11T10:36:00Z",
       "img": "https://media.istockphoto.com/id/1044560218/photo/luxury-holiday-villa-with-infinity-pool-at-sunset.jpg?b=1&s=612x612&w=0&k=20&c=bgHEwkCGEJQF_WHiSVRa7epRK2em3sNK1ZfKp-Wgqhs=",
-      "title": "Luxury apartment in Madrid",
+      "title": "luxury apartment in madrid",
       "location": "Madrid, Community of Madrid, Spain",
       "about": [
         "2 Bedrooms",
@@ -62,8 +62,8 @@
       "id": 5,
       "createdDateTime": "2023-04-11T10:38:00Z",
       "img": "https://images.unsplash.com/photo-1663659508428-9e1a9ce517d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "Rustic finca in Mallorca",
-      "location": "Mallorca, Balearic Islands, Spain",
+      "title": "rustic finca in mallorca",
+      "location": "mallorca, balearic islands, spain",
       "about": [
         "5 Bedrooms",
         "4 Bathrooms",
@@ -77,7 +77,7 @@
       "id": 6,
       "createdDateTime": "2023-04-11T10:40:00Z",
       "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "Contemporary  loft in Barcelona",
+      "title": "contemporary  loft in barcelona",
       "location": "Barcelona, Catalonia, Spain",
       "about": [
         "1 Bedroom",
@@ -92,7 +92,7 @@
       "id": 7,
       "createdDateTime": "2023-04-11T10:42:00Z",
       "img": "https://images.unsplash.com/photo-1652868965061-a1bde8cd4c58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "Traditional cortijo in Granada",
+      "title": "traditional cortijo in granada",
       "location": "Granada, Andalusia, Spain",
       "about": [
         "4 Bedrooms",
@@ -107,7 +107,7 @@
       "id": 9,
       "createdDateTime": "2023-04-11T10:42:00Z",
       "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "Traditional cortijo in Granada",
+      "title": "traditional cortijo in granada",
       "location": "Granada, Andalusia, Spain",
       "about": [
         "4 Bedrooms",
@@ -122,7 +122,7 @@
       "id": 8,
       "createdDateTime": "2023-04-11T10:44:00Z",
       "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "Charming chalet in the Pyrenees",
+      "title": "charming chalet in the pyrenees",
       "location": "Pyrenees, Catalonia, Spain",
       "about": [
         "3 Bedrooms",
