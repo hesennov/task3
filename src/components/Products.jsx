@@ -5,12 +5,11 @@ import { NavLink } from "react-router-dom";
 const Products = () => {
   const [data, setData] = useState([]);
   const [filter, setFilter] = useState(data);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   //   const [displayedListings, setDisplayedListings] = useState(listings);
   const [selectedOption, setSelectedOption] = useState("villa");
 
   useEffect(() => {
-    setLoading(true);
     // axios
     //   .get("http://localhost:3000/places")
     //   .then((res) => setData(res.data))
@@ -21,6 +20,7 @@ const Products = () => {
       .then((response) => response.json())
       .then((data) => setData(data));
     console.log(data);
+    setLoading(false);
   }, []);
   const Loading = () => {
     return (

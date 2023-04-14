@@ -6,7 +6,7 @@ const Table = ({ listings, selectedProperty, query, loading }) => {
     return (
       <>
         <div>
-          <Skeleton height={350} />
+          <Skeleton height={350} width={400} />
         </div>
         <div>
           <Skeleton height={350} />
