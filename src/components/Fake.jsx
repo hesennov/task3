@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Table from "./Table";
-
+import "./style.scss";
 function Fake() {
   const [listings, setDisplayListings] = useState([]);
   const [selectedProperty, setSelectedProperty] = useState("");
@@ -10,7 +10,6 @@ function Fake() {
 
   useEffect(() => {
     // setLoading(true);
-    // API'den verileri çekmek için fetch() fonksiyonunu kullanıyoruz
     fetch("http://localhost:3000/places")
       .then((response) => response.json())
       .then((data) => setDisplayListings(data));

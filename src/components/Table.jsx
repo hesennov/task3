@@ -1,16 +1,17 @@
 import Skeleton from "react-loading-skeleton";
+import { NavLink } from "react-router-dom";
 
-const Table = ({ listings, selectedProperty, query, loading, setLoading }) => {
+const Table = ({ listings, selectedProperty, query, loading }) => {
   const Loading = () => {
     return (
       <>
-        <div className="coll-md-3">
+        <div>
           <Skeleton height={350} />
         </div>
-        <div className="coll-md-3">
+        <div>
           <Skeleton height={350} />
         </div>
-        <div className="coll-md-3">
+        <div>
           <Skeleton height={350} />
         </div>
       </>
@@ -19,21 +20,38 @@ const Table = ({ listings, selectedProperty, query, loading, setLoading }) => {
 
   const ShowProducts = () => {
     return (
-      <ul>
-        {listings
-          .filter(
-            (item) =>
-              selectedProperty === "" || item.type === selectedProperty || query
-          )
-          .map((item) => (
-            <div key={item.id}>
-              <li>{item.title}</li>
-              <img src={item.img} alt={item.title} width="350" height="300" />
-              <li>{item.price}</li>
-              <li>{item.createdDateTime}</li>
-            </div>
-          ))}
-      </ul>
+      <div className="home">
+        <div className="posts">
+          {listings
+            .filter(
+              (item) =>
+                selectedProperty === "" ||
+                item.type === selectedProperty ||
+                query
+            )
+            .map((item) => (
+              <div className="post" key={item.id}>
+                <div className="img">
+                  <NavLink to={`/${item.id}`}>
+                    <img src={item.img} alt={item.title} />
+                  </NavLink>
+                </div>
+                <div className="content">
+                  <NavLink to={`/${item.id}`}>
+                    <h1>{item.title}</h1>
+                  </NavLink>
+                  <h1>{`${item.price}$ `}</h1>
+
+                  <p>{item.location}</p>
+                  <p>{item.about}</p>
+                  <p>
+                    <i>{item.createdDateTime}</i>
+                  </p>
+                </div>
+              </div>
+            ))}
+        </div>
+      </div>
     );
   };
 

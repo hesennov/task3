@@ -1,19 +1,17 @@
 import Navbar from "./components/Navbar";
 import "react-loading-skeleton/dist/skeleton.css";
 import { BrowserRouter, Router, Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
 import "./App.css";
 import Fake from "./components/Fake";
+import Detail from "./components/Detail";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/products" element={<Products />} /> */}
-        <Route path="/products" element={<Fake />} />
-        {/* <Route path="/products/:id" element={<Product />} /> */}
+        <Route path="/" element={<Fake />} />
+        <Route path="/:id" element={<Detail />} />
       </Routes>
     </BrowserRouter>
   );
