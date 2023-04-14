@@ -16,14 +16,6 @@ function Fake() {
     setLoading(false);
   }, []);
 
-  const handlePropertyChange = (event) => {
-    setSelectedProperty(event.target.value);
-  };
-
-  const handleSortChange = (e) => {
-    setSortBy(e.target.value);
-  };
-
   const sortByDateAsc = (listings) => {
     return listings.sort(
       (a, b) => new Date(a.createdDateTime) - new Date(b.createdDateTime)
@@ -71,33 +63,42 @@ function Fake() {
 
   return (
     <div className="App">
-      <input
-        type="text"
-        placeholder="search..."
-        onChange={(e) => setQuery(e.target.value)}
-      />
+      <div className="filter">
+        <div className="search">
+          <input
+            type="text"
+            placeholder="search..."
+            onChange={(e) => setQuery(e.target.value)}
+          />
+        </div>
+        <div className="pricedate">
+          <label htmlFor="sort-select">Sort by: price ve date</label>
+          <select
+            id="sort-select"
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+          >
+            <option value="asc">Price: Low to High</option>
+            <option value="desc">Price: High to Low</option>
+            <option value="date-asc">Date: Oldest to Newest</option>
+            <option value="date-desc">Date: Newest to Oldest</option>
+          </select>
+        </div>
 
-      <h1>ev elanlari</h1>
-      <label htmlFor="sort-select">Sort by: qiyet ve tarix</label>
-      <select id="sort-select" value={sortBy} onChange={handleSortChange}>
-        <option value="asc">Price: Low to High</option>
-        <option value="desc">Price: High to Low</option>
-        <option value="date-asc">Date: Oldest to Newest</option>
-        <option value="date-desc">Date: Newest to Oldest</option>
-      </select>
-      <label>Home type</label>
-
-      <select
-        id="property-type"
-        value={selectedProperty}
-        onChange={handlePropertyChange}
-      >
-        <option value="">Tümü</option>
-        <option value="Apartment ">Apartman</option>
-        <option value="Villa">Villa</option>
-        <option value="Townhouse">Townhouse</option>
-      </select>
-
+        <div className="type">
+          <label>Home type</label>
+          <select
+            id="property-type"
+            value={selectedProperty}
+            onChange={(e) => setSelectedProperty(e.target.value)}
+          >
+            <option value="">Tümü</option>
+            <option value="Apartment ">Apartman</option>
+            <option value="Villa">Villa</option>
+            <option value="Townhouse">Townhouse</option>
+          </select>
+        </div>
+      </div>
       <Table
         listings={search(listings)}
         selectedProperty={selectedProperty}

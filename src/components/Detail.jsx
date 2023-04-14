@@ -50,6 +50,8 @@ const Detail = () => {
           <h1 className="display-5"> {product.title}</h1>
           <h3 className="dislay-6 fw-bold my-4">${product.price}</h3>
           <p className="lead">{product.location}</p>
+          <h2>{product.about}</h2>
+          <h3>{product.createdDateTime}</h3>
         </div>
       </>
     );
