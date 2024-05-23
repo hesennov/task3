@@ -4,12 +4,9 @@
       "id": 1,
       "createdDateTime": "2023-04-11T10:30:00Z",
       "img": "https://images.pexels.com/photos/5563472/pexels-photo-5563472.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "title": "luxe villa in alicante",
-      "location": "Murcia, Costa Cálida, Spanje",
-      "about": [
-        "3 Slaapkamers",
-        "2 Badkamers"
-      ],
+      "title": "1 - Luxe villa in Alicante",
+      "location": "Murcia, Costa Cálida, Spain",
+      "about": ["3 Bedrooms", "2 Bathrooms"],
       "price": 750000,
       "type": "Villa"
     },
@@ -17,7 +14,7 @@
       "id": 2,
       "createdDateTime": "2023-04-11T10:32:00Z",
       "img": "https://images.unsplash.com/photo-1628870571248-4f5db428986c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWxzJTIwdmlsbGFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "stunning beachfront villa in ibiza",
+      "title": "2 - Stunning beachfront villa in Ibiza",
       "location": "Ibiza, Balearic Islands, Spain",
       "about": [
         "4 Bedrooms",
@@ -32,7 +29,7 @@
       "id": 3,
       "createdDateTime": "2023-04-11T10:34:00Z",
       "img": "https://plus.unsplash.com/premium_photo-1661962821338-c07da63995f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWxzJTIwdmlsbGFzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "elegant townhouse in seville",
+      "title": "3 - Elegant townhouse in Seville",
       "location": "Seville, Andalusia, Spain",
       "about": [
         "3 Bedrooms",
@@ -47,7 +44,7 @@
       "id": 4,
       "createdDateTime": "2023-04-11T10:36:00Z",
       "img": "https://media.istockphoto.com/id/1044560218/photo/luxury-holiday-villa-with-infinity-pool-at-sunset.jpg?b=1&s=612x612&w=0&k=20&c=bgHEwkCGEJQF_WHiSVRa7epRK2em3sNK1ZfKp-Wgqhs=",
-      "title": "luxury apartment in madrid",
+      "title": "4 - Luxury apartment in Madrid",
       "location": "Madrid, Community of Madrid, Spain",
       "about": [
         "2 Bedrooms",
@@ -62,8 +59,8 @@
       "id": 5,
       "createdDateTime": "2023-04-11T10:38:00Z",
       "img": "https://images.unsplash.com/photo-1663659508428-9e1a9ce517d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "rustic finca in mallorca",
-      "location": "mallorca, balearic islands, spain",
+      "title": "5 - Rustic finca in Mallorca",
+      "location": "Mallorca, Balearic Islands, Spain",
       "about": [
         "5 Bedrooms",
         "4 Bathrooms",
@@ -77,52 +74,27 @@
       "id": 6,
       "createdDateTime": "2023-04-11T10:40:00Z",
       "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "contemporary  loft in barcelona",
+      "title": "6 - Contemporary loft in Barcelona",
       "location": "Barcelona, Catalonia, Spain",
-      "about": [
-        "1 Bedroom",
-        "1 Bathroom",
-        "Modern design",
-        "Central location"
-      ],
+      "about": ["1 Bedroom", "1 Bathroom", "Modern design", "Central location"],
       "price": 450000,
-      "type": "Apartment "
+      "type": "Apartment"
     },
     {
       "id": 7,
       "createdDateTime": "2023-04-11T10:42:00Z",
       "img": "https://images.unsplash.com/photo-1652868965061-a1bde8cd4c58?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "traditional cortijo in granada",
+      "title": "7 - Traditional cortijo in Granada",
       "location": "Granada, Andalusia, Spain",
-      "about": [
-        "4 Bedrooms",
-        "3 Bathrooms",
-        "Private pool",
-        "Mountain views"
-      ],
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Mountain views"],
       "price": 890000,
-      "type": "Apartment"
-    },
-    {
-      "id": 9,
-      "createdDateTime": "2023-04-11T10:42:00Z",
-      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "traditional cortijo in granada",
-      "location": "Granada, Andalusia, Spain",
-      "about": [
-        "4 Bedrooms",
-        "3 Bathrooms",
-        "Private pool",
-        "Mountain views"
-      ],
-      "price": 190000,
       "type": "Apartment"
     },
     {
       "id": 8,
       "createdDateTime": "2023-04-11T10:44:00Z",
       "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
-      "title": "charming chalet in the pyrenees",
+      "title": "8 - Charming chalet in the Pyrenees",
       "location": "Pyrenees, Catalonia, Spain",
       "about": [
         "3 Bedrooms",
@@ -132,6 +104,481 @@
       ],
       "price": 740000,
       "type": "Villa"
+    },
+    {
+      "id": 9,
+      "createdDateTime": "2023-04-11T10:46:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "9 - Modern penthouse in Valencia",
+      "location": "Valencia, Community of Valencia, Spain",
+      "about": ["2 Bedrooms", "2 Bathrooms", "City views", "Private terrace"],
+      "price": 670000,
+      "type": "Apartment"
+    },
+    {
+      "id": 10,
+      "createdDateTime": "2023-04-11T10:48:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "10 - Cozy cottage in Galicia",
+      "location": "Galicia, Spain",
+      "about": ["3 Bedrooms", "2 Bathrooms", "Garden", "Near the beach"],
+      "price": 580000,
+      "type": "Townhouse"
+    },
+    {
+      "id": 11,
+      "createdDateTime": "2023-04-11T10:50:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "11 - Stylish villa in Marbella",
+      "location": "Marbella, Andalusia, Spain",
+      "about": [
+        "4 Bedrooms",
+        "4 Bathrooms",
+        "Private pool",
+        "Golf course views"
+      ],
+      "price": 1250000,
+      "type": "Villa"
+    },
+    {
+      "id": 12,
+      "createdDateTime": "2023-04-11T10:52:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "12 - Beachfront villa in Malaga",
+      "location": "Malaga, Andalusia, Spain",
+      "about": [
+        "5 Bedrooms",
+        "5 Bathrooms",
+        "Private pool",
+        "Direct beach access"
+      ],
+      "price": 1800000,
+      "type": "Villa"
+    },
+    {
+      "id": 13,
+      "createdDateTime": "2023-04-11T10:54:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "13 - Historical mansion in Toledo",
+      "location": "Toledo, Castile-La Mancha, Spain",
+      "about": ["6 Bedrooms", "4 Bathrooms", "Large garden", "Historic charm"],
+      "price": 2000000,
+      "type": "Mansion"
+    },
+    {
+      "id": 14,
+      "createdDateTime": "2023-04-11T10:56:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "14 - Modern duplex in Bilbao",
+      "location": "Bilbao, Basque Country, Spain",
+      "about": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "River views",
+        "High-end finishes"
+      ],
+      "price": 750000,
+      "type": "Apartment"
+    },
+    {
+      "id": 15,
+      "createdDateTime": "2023-04-11T10:58:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "15 - Seaside house in Santander",
+      "location": "Santander, Cantabria, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Sea views", "Private garden"],
+      "price": 890000,
+      "type": "Townhouse"
+    },
+    {
+      "id": 16,
+      "createdDateTime": "2023-04-11T11:00:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "16 - Countryside estate in La Rioja",
+      "location": "La Rioja, Spain",
+      "about": ["5 Bedrooms", "4 Bathrooms", "Vineyard", "Scenic views"],
+      "price": 1500000,
+      "type": "Estate"
+    },
+    {
+      "id": 17,
+      "createdDateTime": "2023-04-11T11:02:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "17 - Modern villa in Alicante",
+      "location": "Alicante, Valencian Community, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Ocean views"],
+      "price": 1100000,
+      "type": "Villa"
+    },
+    {
+      "id": 18,
+      "createdDateTime": "2023-04-11T11:04:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "18 - Penthouse in Malaga",
+      "location": "Malaga, Andalusia, Spain",
+      "about": ["3 Bedrooms", "2 Bathrooms", "City views", "Private terrace"],
+      "price": 900000,
+      "type": "Apartment"
+    },
+    {
+      "id": 19,
+      "createdDateTime": "2023-04-11T11:06:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "19 - Cozy farmhouse in Navarra",
+      "location": "Navarra, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Large garden", "Rural charm"],
+      "price": 850000,
+      "type": "Farmhouse"
+    },
+    {
+      "id": 20,
+      "createdDateTime": "2023-04-11T11:08:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "20 - Luxury chalet in Andorra",
+      "location": "Andorra",
+      "about": [
+        "5 Bedrooms",
+        "5 Bathrooms",
+        "Ski-in/ski-out",
+        "Mountain views"
+      ],
+      "price": 2500000,
+      "type": "Chalet"
+    },
+    {
+      "id": 21,
+      "createdDateTime": "2023-04-11T11:10:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "21 - Secluded villa in Tenerife",
+      "location": "Tenerife, Canary Islands, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Ocean views"],
+      "price": 1300000,
+      "type": "Villa"
+    },
+    {
+      "id": 22,
+      "createdDateTime": "2023-04-11T11:12:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "22 - Modern apartment in Valencia",
+      "location": "Valencia, Valencian Community, Spain",
+      "about": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "City center",
+        "Contemporary design"
+      ],
+      "price": 680000,
+      "type": "Apartment"
+    },
+    {
+      "id": 23,
+      "createdDateTime": "2023-04-11T11:14:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "23 - Eco-friendly home in Galicia",
+      "location": "Galicia, Spain",
+      "about": ["3 Bedrooms", "2 Bathrooms", "Solar panels", "Green roof"],
+      "price": 720000,
+      "type": "House"
+    },
+    {
+      "id": 24,
+      "createdDateTime": "2023-04-11T11:16:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "24 - Traditional villa in Menorca",
+      "location": "Menorca, Balearic Islands, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Beach access"],
+      "price": 1450000,
+      "type": "Villa"
+    },
+    {
+      "id": 25,
+      "createdDateTime": "2023-04-11T11:18:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "25 - Luxury villa in Lanzarote",
+      "location": "Lanzarote, Canary Islands, Spain",
+      "about": ["5 Bedrooms", "4 Bathrooms", "Private pool", "Ocean views"],
+      "price": 2100000,
+      "type": "Villa"
+    },
+    {
+      "id": 26,
+      "createdDateTime": "2023-04-11T11:20:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "26 - Modern villa in Gran Canaria",
+      "location": "Gran Canaria, Canary Islands, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Mountain views"],
+      "price": 1350000,
+      "type": "Villa"
+    },
+    {
+      "id": 27,
+      "createdDateTime": "2023-04-11T11:22:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "27 - Modern house in Ibiza",
+      "location": "Ibiza, Balearic Islands, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Mountain views"],
+      "price": 1400000,
+      "type": "House"
+    },
+    {
+      "id": 28,
+      "createdDateTime": "2023-04-11T11:24:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "28 - Coastal villa in Cadiz",
+      "location": "Cadiz, Andalusia, Spain",
+      "about": ["5 Bedrooms", "4 Bathrooms", "Ocean views", "Private garden"],
+      "price": 1800000,
+      "type": "Villa"
+    },
+    {
+      "id": 29,
+      "createdDateTime": "2023-04-11T11:26:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "29 - Modern loft in Madrid",
+      "location": "Madrid, Community of Madrid, Spain",
+      "about": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "City views",
+        "Contemporary design"
+      ],
+      "price": 980000,
+      "type": "Apartment"
+    },
+    {
+      "id": 30,
+      "createdDateTime": "2023-04-11T11:28:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "30 - Country house in Extremadura",
+      "location": "Extremadura, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Large garden", "Rural charm"],
+      "price": 800000,
+      "type": "Country House"
+    },
+    {
+      "id": 31,
+      "createdDateTime": "2023-04-11T11:30:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "31 - Rustic villa in Galicia",
+      "location": "Galicia, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Large garden", "Rural charm"],
+      "price": 900000,
+      "type": "Villa"
+    },
+    {
+      "id": 32,
+      "createdDateTime": "2023-04-11T11:32:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "32 - Modern house in La Rioja",
+      "location": "La Rioja, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Large garden", "Rural charm"],
+      "price": 920000,
+      "type": "House"
+    },
+    {
+      "id": 33,
+      "createdDateTime": "2023-04-11T11:34:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "33 - Traditional house in Asturias",
+      "location": "Asturias, Spain",
+      "about": ["3 Bedrooms", "2 Bathrooms", "Mountain views", "Rustic design"],
+      "price": 850000,
+      "type": "House"
+    },
+    {
+      "id": 34,
+      "createdDateTime": "2023-04-11T11:36:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "34 - Seafront villa in Tenerife",
+      "location": "Tenerife, Canary Islands, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Ocean views"],
+      "price": 2000000,
+      "type": "Villa"
+    },
+    {
+      "id": 35,
+      "createdDateTime": "2023-04-11T11:38:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "35 - Countryside villa in Aragon",
+      "location": "Aragon, Spain",
+      "about": [
+        "4 Bedrooms",
+        "3 Bathrooms",
+        "Large garden",
+        "Tranquil setting"
+      ],
+      "price": 950000,
+      "type": "Villa"
+    },
+    {
+      "id": 36,
+      "createdDateTime": "2023-04-11T11:40:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "36 - Luxury apartment in Bilbao",
+      "location": "Bilbao, Basque Country, Spain",
+      "about": ["3 Bedrooms", "2 Bathrooms", "City views", "Modern amenities"],
+      "price": 1100000,
+      "type": "Apartment"
+    },
+    {
+      "id": 37,
+      "createdDateTime": "2023-04-11T11:42:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "37 - Beachfront apartment in Malaga",
+      "location": "Malaga, Andalusia, Spain",
+      "about": ["2 Bedrooms", "2 Bathrooms", "Ocean views", "Beach access"],
+      "price": 780000,
+      "type": "Apartment"
+    },
+    {
+      "id": 38,
+      "createdDateTime": "2023-04-11T11:44:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "38 - Modern penthouse in Seville",
+      "location": "Seville, Andalusia, Spain",
+      "about": ["2 Bedrooms", "2 Bathrooms", "City views", "Rooftop terrace"],
+      "price": 950000,
+      "type": "Penthouse"
+    },
+    {
+      "id": 39,
+      "createdDateTime": "2023-04-11T11:46:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "39 - Historic townhouse in Cordoba",
+      "location": "Cordoba, Andalusia, Spain",
+      "about": [
+        "3 Bedrooms",
+        "2 Bathrooms",
+        "Historic charm",
+        "Central location"
+      ],
+      "price": 820000,
+      "type": "Townhouse"
+    },
+    {
+      "id": 40,
+      "createdDateTime": "2023-04-11T11:48:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "40 - Modern duplex in Zaragoza",
+      "location": "Zaragoza, Aragon, Spain",
+      "about": [
+        "3 Bedrooms",
+        "3 Bathrooms",
+        "Modern amenities",
+        "Central location"
+      ],
+      "price": 930000,
+      "type": "Duplex"
+    },
+    {
+      "id": 41,
+      "createdDateTime": "2023-04-11T11:50:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "41 - Modern villa in Alicante",
+      "location": "Alicante, Valencian Community, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Sea views"],
+      "price": 1500000,
+      "type": "Villa"
+    },
+    {
+      "id": 42,
+      "createdDateTime": "2023-04-11T11:52:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "42 - Country house in Castilla-La Mancha",
+      "location": "Castilla-La Mancha, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Large garden", "Rural charm"],
+      "price": 850000,
+      "type": "Country House"
+    },
+    {
+      "id": 43,
+      "createdDateTime": "2023-04-11T11:54:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "43 - Luxury villa in Marbella",
+      "location": "Marbella, Andalusia, Spain",
+      "about": ["5 Bedrooms", "4 Bathrooms", "Private pool", "Sea views"],
+      "price": 2500000,
+      "type": "Villa"
+    },
+    {
+      "id": 44,
+      "createdDateTime": "2023-04-11T11:56:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "44 - Charming house in Menorca",
+      "location": "Menorca, Balearic Islands, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Beach access", "Scenic views"],
+      "price": 1300000,
+      "type": "House"
+    },
+    {
+      "id": 45,
+      "createdDateTime": "2023-04-11T11:58:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "45 - Contemporary penthouse in Valencia",
+      "location": "Valencia, Valencian Community, Spain",
+      "about": ["3 Bedrooms", "3 Bathrooms", "City views", "Modern amenities"],
+      "price": 1150000,
+      "type": "Penthouse"
+    },
+    {
+      "id": 46,
+      "createdDateTime": "2023-04-11T12:00:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "46 - Rustic villa in Galicia",
+      "location": "Galicia, Spain",
+      "about": [
+        "4 Bedrooms",
+        "3 Bathrooms",
+        "Large garden",
+        "Countryside views"
+      ],
+      "price": 990000,
+      "type": "Villa"
+    },
+    {
+      "id": 47,
+      "createdDateTime": "2023-04-11T12:02:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "47 - Luxury loft in Malaga",
+      "location": "Malaga, Andalusia, Spain",
+      "about": [
+        "2 Bedrooms",
+        "2 Bathrooms",
+        "Modern design",
+        "Central location"
+      ],
+      "price": 820000,
+      "type": "Loft"
+    },
+    {
+      "id": 48,
+      "createdDateTime": "2023-04-11T12:04:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "48 - Seafront house in Santander",
+      "location": "Santander, Cantabria, Spain",
+      "about": ["3 Bedrooms", "2 Bathrooms", "Ocean views", "Private garden"],
+      "price": 1000000,
+      "type": "House"
+    },
+    {
+      "id": 49,
+      "createdDateTime": "2023-04-11T12:06:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "49 - Modern villa in Cadiz",
+      "location": "Cadiz, Andalusia, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Private pool", "Sea views"],
+      "price": 1400000,
+      "type": "Villa"
+    },
+    {
+      "id": 50,
+      "createdDateTime": "2023-04-11T12:08:00Z",
+      "img": "https://images.unsplash.com/photo-1571635685743-db0db8e31d9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fGhvdGVscyUyMHZpbGxhc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "title": "50 - Country house in La Rioja",
+      "location": "La Rioja, Spain",
+      "about": ["4 Bedrooms", "3 Bathrooms", "Large garden", "Rural charm"],
+      "price": 920000,
+      "type": "House"
     }
   ]
 }

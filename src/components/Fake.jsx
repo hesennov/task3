@@ -1,21 +1,28 @@
 import { useState, useEffect } from "react";
 import Table from "./Table";
 import "./style.scss";
+import { log } from "three/examples/jsm/nodes/Nodes.js";
 function Fake() {
   const [listings, setDisplayListings] = useState([]);
   const [selectedProperty, setSelectedProperty] = useState("");
   const [loading, setLoading] = useState(true);
   const [sortBy, setSortBy] = useState("asc");
   const [query, setQuery] = useState("");
+  const [page, setPage] = useState(1);
 
+  const handleClick = (btn) => {
+    setPage(btn);
+    console.log(btn);
+  };
+  const startIndex = (page - 1) * 5;
+  const selectedList = listings.slice(startIndex, startIndex + 5);
   useEffect(() => {
     // setLoading(true);
     fetch("http://localhost:3000/places")
       .then((response) => response.json())
       .then((data) => setDisplayListings(data));
     setLoading(false);
-  }, []);
-
+  }, [page]);
   const sortByDateAsc = (listings) => {
     return listings.sort(
       (a, b) => new Date(a.createdDateTime) - new Date(b.createdDateTime)
@@ -63,20 +70,27 @@ function Fake() {
 
   return (
     <div className="App">
-      <div className="filter">
-        <div className="search">
+      <div className="filter flex flex-wrap justify-between items-center space-y-4 sm:space-y-0 sm:flex-row">
+        <div className="search flex-1">
           <input
             type="text"
-            placeholder="search..."
+            placeholder="Search..."
+            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:border-blue-300"
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
-        <div className="pricedate">
-          <label htmlFor="sort-select">Sort by: price ve date</label>
+        <div className="pricedate flex-1 sm:ml-4">
+          <label
+            htmlFor="sort-select"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Sort by:
+          </label>
           <select
             id="sort-select"
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
+            className="mt-1 block w-full pl-3 pr-10 py-2 border border-gray-300 bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300 sm:text-sm"
           >
             <option value="asc">Price: Low to High</option>
             <option value="desc">Price: High to Low</option>
@@ -84,23 +98,38 @@ function Fake() {
             <option value="date-desc">Date: Newest to Oldest</option>
           </select>
         </div>
-
-        <div className="type">
-          <label>Home type</label>
+        <div className="type flex-1 sm:ml-4">
+          <label
+            htmlFor="property-type"
+            className="block text-sm font-medium text-gray-700"
+          >
+            Home type:
+          </label>
           <select
             id="property-type"
             value={selectedProperty}
             onChange={(e) => setSelectedProperty(e.target.value)}
+            className="mt-1 block w-full pl-3 pr-10 py-2 border border-gray-300 bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300 sm:text-sm"
           >
-            <option value="">Tümü</option>
-            <option value="Apartment ">Apartman</option>
+            <option value="">All</option>
+            <option value="Apartment">Apartment</option>
             <option value="Villa">Villa</option>
             <option value="Townhouse">Townhouse</option>
           </select>
         </div>
       </div>
+
+      {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((btn) => (
+        <button
+          onClick={() => handleClick(btn)}
+          className="btn btn-primary mx-1 "
+        >
+          {btn}
+        </button>
+      ))}
+      <button>{page}</button>
       <Table
-        listings={search(listings)}
+        listings={search(selectedList)}
         selectedProperty={selectedProperty}
         query={query}
         loading={loading}
