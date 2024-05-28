@@ -5,6 +5,7 @@ import "./style.scss";
 function Fake() {
   const [listings, setListings] = useState([]);
   const [selectedProperty, setSelectedProperty] = useState("");
+  const [selectedPropertys, setSelectedPropertys] = useState("");
   const [loading, setLoading] = useState(true);
   const [sortBy, setSortBy] = useState("asc");
   const [query, setQuery] = useState("");
@@ -32,6 +33,13 @@ function Fake() {
         item.location.toLowerCase().includes(query.toLowerCase())
     );
 
+    // if (selectedPropertys) {
+    //   filteredData = filteredData.filter(
+    //     (item) =>
+    //       item.location.toLowerCase() === selectedPropertys.toLowerCase()
+    //   );
+    // }
+
     if (selectedProperty) {
       filteredData = filteredData.filter(
         (item) => item.type === selectedProperty
@@ -54,12 +62,12 @@ function Fake() {
 
     return filteredData;
   };
+  //////////////////////////////////////////////////////////
 
   const selectedList = getSortedAndFilteredData().slice(
     (page - 1) * 5,
     page * 5
   );
-  //psug
 
   return (
     <div className="App">
@@ -91,6 +99,7 @@ function Fake() {
             <option value="date-desc">Date: Newest to Oldest</option>
           </select>
         </div>
+        {/* Home type Filter */}
         <div className="type flex-1 sm:ml-4">
           <label
             htmlFor="property-type"
@@ -110,6 +119,25 @@ function Fake() {
             <option value="Townhouse">Townhouse</option>
           </select>
         </div>
+        {/* <div className="type flex-1 sm:ml-4">
+          <label
+            htmlFor="property-type"
+            className="block text-sm font-medium text-gray-700"
+          >
+            location
+          </label>
+          <select
+            id="property-location"
+            value={selectedPropertys}
+            onChange={(e) => setSelectedPropertys(e.target.value)}
+            className="mt-1 block w-full pl-3 pr-10 py-2 border border-gray-300 bg-white rounded-md focus:outline-none focus:ring focus:border-blue-300 sm:text-sm"
+          >
+            <option value="">All</option>
+            <option value="Valencia">Valencia</option>
+            <option value="Ibiza">Ibiza</option>
+            <option value="Murcia">Murcia</option>
+          </select>
+        </div> */}
       </div>
 
       <div className="pagination mt-4">
